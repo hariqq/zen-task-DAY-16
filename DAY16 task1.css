@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .headerBox {
+    text-align: center;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkblue;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .footerBox {
+    text-align: center;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkblue;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .mainBox {
+    align-self: stretch;
+    background-color: lightgreen;
+    border: 3px solid darkgoldenrod;
+    height: 60vh;
+    border-radius: 30px;
+  }
+  
+  .innerBox {
+    text-align: center;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: 3px solid darkviolet;
+    border-radius: 30px;
+  }
+  
+  .innerFirstBox {
+    text-align: center;
+    align-items: stretch;
+    align-content: unset;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    border: 3px solid darkgoldenrod;
+    border-radius: 30px;
+  }
+  
+  .innerSecondBox {
+    text-align: center;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    border: 3px solid darkgoldenrod;
+    border-radius: 30px;
+  }
+  
+  #pid {
+    text-indent: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-content: stretch;
+    border: 3px solid darkred;
+    border-radius: 30px;
+    /* padding: 70px 100px 70px 150px; */
+  }
+  
+  #pid2 {
+    text-indent: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-content: stretch;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    /* padding: 150px 160px 150px 150px; */
+    color: yellow;
+  }
+  
+  @media all and (max-width: 1000px) {
+    .mainOutline {
+      flex-direction: column;
+    }
+  }
+  
